@@ -1,7 +1,6 @@
 ## LSTM-Price-Calculation
 
-[![MIT License][license-shield]][license-url]
-[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]]['https://github.com/furkankesgin/LSTM-Price-Calculation/blob/master/LICENSE']
 
 
 ### In this project, you can calculate the ISMEN price regarding to csv history file from yahoo finance.
