@@ -26,7 +26,7 @@ def veri_kaydirmaca(hisse_verisi, gun_sayisi):
 
 #hisse verisini csv dosyasından alıyoruz
 def veri_al():
-    df = pd.read_csv("/Users/furkan/Desktop/ISMEN.IS_2017-2022.csv", index_col=0) #0. indexteki columndan baslayarak almaya devam ediyor
+    df = pd.read_csv("ISMEN.IS_2017-2022.csv", index_col=0) #0. indexteki columndan baslayarak almaya devam ediyor
     df.drop(['Volume'], 1, inplace=True)    #pandas ile eklenen csv dosyasının içerisindeki Volume columunu kaldırıyoruz, inplace ederek ise, kopyasını geri döndörmek yerine none geri döndürerek siliyor
     df.drop(['Adj Close'], 1, inplace=True)        
     return df
